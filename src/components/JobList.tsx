@@ -23,7 +23,7 @@ const JobList = ({ filteredJobs, jobFilter, setJobFilter }: Props) => {
   };
 
   return (
-    <div className="flex flex-col gap-12 cm:gap-6 mt-16 cm:mt-10">
+    <div className="flex flex-col gap-12 cm:gap-6 mt-20 cm:mt-10">
       {filteredJobs.map((fj) => (
         <div
           key={fj.id}
