@@ -1,3 +1,5 @@
+import asset from "./src/assets/asset";
+
 export interface JobsProps {
   id: number;
   company: string;
@@ -18,7 +20,7 @@ export const jobList = [
   {
     "id": 1,
     "company": "Photosnap",
-    "logo": "./src/assets/images/photosnap.svg",
+    "logo": asset.photosnap,
     "new": true,
     "featured": true,
     "position": "Senior Frontend Developer",
@@ -33,7 +35,7 @@ export const jobList = [
   {
     "id": 2,
     "company": "Manage",
-    "logo": "./src/assets/images/manage.svg",
+    "logo": asset.manage,
     "new": true,
     "featured": true,
     "position": "Fullstack Developer",
@@ -48,7 +50,7 @@ export const jobList = [
   {
     "id": 3,
     "company": "Account",
-    "logo": "./src/assets/images/account.svg",
+    "logo": asset.account,
     "new": true,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -63,7 +65,7 @@ export const jobList = [
   {
     "id": 4,
     "company": "MyHome",
-    "logo": "./src/assets/images/myhome.svg",
+    "logo": asset.myHome,
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -78,7 +80,7 @@ export const jobList = [
   {
     "id": 5,
     "company": "Loop Studios",
-    "logo": "./src/assets/images/loop-studios.svg",
+    "logo": asset.loopStudios,
     "new": false,
     "featured": false,
     "position": "Software Engineer",
@@ -93,7 +95,7 @@ export const jobList = [
   {
     "id": 6,
     "company": "FaceIt",
-    "logo": "./src/assets/images/faceit.svg",
+    "logo": asset.faceit,
     "new": false,
     "featured": false,
     "position": "Junior Backend Developer",
@@ -108,7 +110,7 @@ export const jobList = [
   {
     "id": 7,
     "company": "Shortly",
-    "logo": "./src/assets/images/shortly.svg",
+    "logo": asset.shortly,
     "new": false,
     "featured": false,
     "position": "Junior Developer",
@@ -123,7 +125,7 @@ export const jobList = [
   {
     "id": 8,
     "company": "Insure",
-    "logo": "./src/assets/images/insure.svg",
+    "logo": asset.insure,
     "new": false,
     "featured": false,
     "position": "Junior Frontend Developer",
@@ -138,7 +140,7 @@ export const jobList = [
   {
     "id": 9,
     "company": "Eyecam Co.",
-    "logo": "./src/assets/images/eyecam-co.svg",
+    "logo": asset.eyecamCo,
     "new": false,
     "featured": false,
     "position": "Full Stack Engineer",
@@ -153,7 +155,7 @@ export const jobList = [
   {
     "id": 10,
     "company": "The Air Filter Company",
-    "logo": "./src/assets/images/the-air-filter-company.svg",
+    "logo": asset.airFilter,
     "new": false,
     "featured": false,
     "position": "Front-end Dev",
